@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "1",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Sean M.", rating: 5, text: "Absolutely delighted with the work Alfresco Landscapes did on our garden. From the initial consultation to the finished result, everything was handled professionally. The team were punctual, tidy, and the quality of workmanship was outstanding. Ou...", date: "3 months ago" },
+    { name: "Georgia Evans", rating: 5, text: "Had Alfresco Landscapes do our front and back gardens. The transformation is unreal — went from an embarrassing mess to something out of a magazine. The guys were polite, hardworking, and incredibly skilled.", date: "3 months ago" },
+    { name: "Ian T.", rating: 5, text: "Used Alfresco Landscapes for landscaping work at our property in Truro. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "2 months ago" },
+    { name: "Rosie Green", rating: 5, text: "Top quality work from Alfresco Landscapes. They redesigned our outdoor space and it's now our favourite part of the house. The whole family spends so much more time outside now. Couldn't be happier.", date: "2 months ago" },
+    { name: "Elaine Brooks", rating: 5, text: "Had a wonderful experience with Alfresco Landscapes. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "a month ago" },
+    { name: "Luke Hughes", rating: 5, text: "Just had Alfresco Landscapes finish our garden project in Truro. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "8 months ago" },
+    { name: "Charlie Palmer", rating: 5, text: "Alfresco Landscapes recently completed a major landscaping project for us and the quality is exceptional. The team worked through some challenging weather but still delivered on time. Genuinely thrilled with the outcome.", date: "5 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
